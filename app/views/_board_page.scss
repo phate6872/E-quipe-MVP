@@ -1,0 +1,26 @@
+#board­page{ 
+$BOARD_BACKGROUND_COLOR: #5BA4CF; background:$BOARD_BACKGROUND_COLOR;
+$BOARD_PAGE_PADDING:0px; 
+position:absolute; 
+top:$BOARD_PAGE_PADDING; 
+bottom:$BOARD_PAGE_PADDING; 
+left:$BOARD_PAGE_PADDING; 
+right:$BOARD_PAGE_PADDING;
+}
+.list{ 
+  display:inline­-block; 
+  $LIST_BACKGROUND_COLOR: #D2D7E5; 
+  background:$LIST_BACKGROUND_COLOR; 
+  width:300px; 
+  padding:10px; 
+
+  &:not(:first­-child){ 
+    margin­-left:10px; 
+  } 
+
+  .list­-name{ 
+    padding:10px; 
+    border:none; 
+    background:transparent; 
+  } 
+}
